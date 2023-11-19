@@ -6,4 +6,12 @@ import { createChart } from './chart.js';
 // Hívd meg a createChart függvényt, hogy létrehozd a diagramot
 createChart();
 
-
+document.addEventListener('DOMContentLoaded', function() {
+    // A gombra való kattintáskor meghívódik a myFunction
+    document.getElementById('myButton').addEventListener('click', myFunction);
+    
+    // myFunction definíciója
+    function myFunction() {
+        document.getElementById('myChart1').style.display = "block";
+    }
+});

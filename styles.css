@@ -11975,4 +11975,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+#myChart1 {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */
